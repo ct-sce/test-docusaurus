@@ -9,16 +9,23 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+  // enable faster build time https://docusaurus.io/blog/releases/3.6
+  future: {
+    experimental_faster: true,
+  },
+  
+  trailingSlash: true,
+
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ct-sce/test-docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ct-sce', // Usually your GitHub org/user name.
+  projectName: 'test-docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
